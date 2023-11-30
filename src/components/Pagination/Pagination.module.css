@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espacio por encima de la paginación */
+}
+
+.pagination button {
+    background-color:  #a83232;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px; /* Espacio entre los botones */
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover,
+.buttonPrevNext:hover {
+  background-color:  #ff7d04;
+}
+
+.active {
+    opacity: 0.5;
+  }
+
