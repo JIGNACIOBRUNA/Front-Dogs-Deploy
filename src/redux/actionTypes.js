@@ -1,5 +1,6 @@
 export const GET_ALL_BREED = "GET_ALL_BREED";
-export const LOCAL_HOST = "http://localhost:3001";
+//export const LOCAL_HOST = "http://localhost:3001";
+export const LOCAL_HOST = "https://deploy-back-dogs-production.up.railway.app/";
 export const GET_NAME_DOG = "GET_NAME_DOG";
 export const DETAIL_DOG = "DETAIL_DOG";
 export const ADD_TEMPERAMENTS = "ADD_TEMPERAMENTS";
